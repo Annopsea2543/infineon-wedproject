@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infineon Summary</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header img {
+      height: 40px;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #6a5c50;
+      font-weight: bold;
+    }
+    .banner {
+      width: 100%;
+      height: 300px;
+      background: url('./พื้นหลังเมนู.png') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .content {
+      background: linear-gradient(to right, #a8edea, #fed6e3);
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    th, td {
+      border: 2px solid black;
+      padding: 5px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .add-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      font-size: 2rem;
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./logo infi.png" alt="Infineon Logo">
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">LOGOUT</a>
+    </nav>
+  </header>
+
+  <div class="banner"></div>
+  <div class="content">The Summarize base load</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>CW</th>
+        <th>Date</th>
+        <th>Lot ID</th>
+        <th>Process</th>
+        <th>Problem</th>
+        <th>Remark</th>
+        <th>Machine Down</th>
+        <th><em>Machine Start</em></th>
+        <th>Total Down Time (Hrs.)</th>
+        <th>Picture</th>
+        <th>Containment<br>Action</th>
+        <th>PLC</th>
+        <th>Corrective<br>Action</th>
+        <th>Status</th>
+        <th>Reference File</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td colspan="15" style="height: 40px;"></td></tr>
+      <tr><td colspan="15" style="height: 40px;"></td></tr>
+      <tr><td colspan="15" style="height: 40px;"></td></tr>
+      <tr><td colspan="15" style="height: 40px;"></td></tr>
+      <tr><td colspan="15" style="height: 40px;"></td></tr>
+    </tbody>
+  </table>
+
+  <button class="add-button">+</button>
+</body>
+</html>
