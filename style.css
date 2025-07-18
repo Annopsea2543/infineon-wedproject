@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a,
+nav button {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.banner {
+  height: 220px;
+  background: url('banner.png') center/cover no-repeat;
+}
+
+.content {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(to right, #a8edea, #fed6e3);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1200px;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 6px;
+  text-align: center;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(#bbb, #444);
+}
+
+.login-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+.login-container .logo {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 150px; /* ขนาดจำกัดกว้างสุด */
+  height: auto;
+}
+
+.login-container input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 1rem;
+  height: 40px; /* ปรับจาก 60px เป็น 40px */
+  width: auto;
+  max-width: 100%; /* ป้องกันเกินขนาด container */
+}
+.logo {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 120px;
+  height: auto;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infineon Summary</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: white;
+    }
+    header img {
+      height: 40px;
+    }
+    nav a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .banner {
+      width: 100%;
+      height: auto;
+    }
+    .content {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem;
+      background: linear-gradient(to right, #a8edea, #fed6e3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo infi.png" alt="Infineon Logo">
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="login.html">LOGOUT</a>
+    </nav>
+  </header>
+
+  <img class="banner" src="banner.png" alt="Infineon Building">
+
+  <div class="content">The Summarize base load</div>
+
+  <!-- ด้านล่างค่อยแทรกตาราง summary ของคุณต่อได้เลย -->
+
+</body>
+</html>
